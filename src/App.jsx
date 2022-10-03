@@ -151,7 +151,8 @@ export default function Example() {
           </Disclosure.Panel>
         </>
       )}
+      <Alert/>
     </Disclosure>
-    <Alert/>
+    
   )
 }

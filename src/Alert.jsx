@@ -41,12 +41,11 @@ export default function Example() {
                     </div>
                     <div className="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
                       <Dialog.Title as="h3" className="text-lg font-medium leading-6 text-gray-900">
-                        Deactivate account
+                        Sidney o futuro é o Typescript
                       </Dialog.Title>
                       <div className="mt-2">
                         <p className="text-sm text-gray-500">
-                          Are you sure you want to deactivate your account? All of your data will be permanently
-                          removed. This action cannot be undone.
+                          Você tem certeza que deseja continuar?
                         </p>
                       </div>
                     </div>
@@ -58,7 +57,7 @@ export default function Example() {
                     className="inline-flex w-full justify-center rounded-md border border-transparent bg-red-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 sm:ml-3 sm:w-auto sm:text-sm"
                     onClick={() => setOpen(false)}
                   >
-                    Deactivate
+                    Deletar PHP
                   </button>
                   <button
                     type="button"
@@ -66,7 +65,7 @@ export default function Example() {
                     onClick={() => setOpen(false)}
                     ref={cancelButtonRef}
                   >
-                    Cancel
+                    Pode manter
                   </button>
                 </div>
               </Dialog.Panel>
